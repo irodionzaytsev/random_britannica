@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="192c954b-e0b8-46a5-9aca-a0404b6011a4" name="Changes" comment="Added headers and timeout">
-      <change beforePath="$PROJECT_DIR$/api/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/index.py" afterDir="false" />
+    <list default="true" id="192c954b-e0b8-46a5-9aca-a0404b6011a4" name="Changes" comment="Adjusted code for render.com">
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1767768830969</updated>
       <workItem from="1767768832012" duration="4463000" />
-      <workItem from="1767802205606" duration="4550000" />
+      <workItem from="1767802205606" duration="4941000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: working website">
       <option name="closed" value="true" />
@@ -190,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767805947788</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Adjusted code for render.com">
+      <option name="closed" value="true" />
+      <created>1767806989892</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1767806989892</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +223,8 @@
     <MESSAGE value="Restructured the folder so that it is like in the vercel example." />
     <MESSAGE value="After restructuring the files the sanity check deployment worked. So now we remove the sanity check and see if the actual code works." />
     <MESSAGE value="Added headers and timeout" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added headers and timeout" />
+    <MESSAGE value="Adjusted code for render.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted code for render.com" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RandomBritannica$RandomBritannica.coverage" NAME="RandomBritannica Coverage Results" MODIFIED="1767806921449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
