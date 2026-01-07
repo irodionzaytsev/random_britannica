@@ -32,7 +32,6 @@ def get_random_article_link(topic):
     return "<a href="+link+">"+random_link[1:]+"</a>"
 @app.route('/')
 def main():  # put application's code here
-    return "SANITY CHECK"
     category = query_random_category()
     topic = query_random_topic(category)
     article = get_random_article_link(topic)
