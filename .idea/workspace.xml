@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="192c954b-e0b8-46a5-9aca-a0404b6011a4" name="Changes" comment="Sanity check">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="192c954b-e0b8-46a5-9aca-a0404b6011a4" name="Changes" comment="Added vercel.json" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,12 +81,13 @@
   <component name="RunManager">
     <configuration name="RandomBritannica" type="Python.FlaskServer">
       <module name="RandomBritannica" />
-      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="target" value="$PROJECT_DIR$/api/index.py" />
       <option name="targetType" value="PATH" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (RandomBritannica)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -115,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1767768830969</updated>
       <workItem from="1767768832012" duration="4463000" />
-      <workItem from="1767802205606" duration="2194000" />
+      <workItem from="1767802205606" duration="2540000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: working website">
       <option name="closed" value="true" />
@@ -141,7 +140,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767803817518</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added vercel.json">
+      <option name="closed" value="true" />
+      <created>1767804428059</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767804428059</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +169,8 @@
     <MESSAGE value="Initial commit: working website" />
     <MESSAGE value="Added requirements" />
     <MESSAGE value="Sanity check" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sanity check" />
+    <MESSAGE value="Added vercel.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added vercel.json" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
