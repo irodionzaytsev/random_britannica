@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="192c954b-e0b8-46a5-9aca-a0404b6011a4" name="Changes" comment="Added the links to git.">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logic.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape_articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrape_articles.py" afterDir="false" />
+    <list default="true" id="192c954b-e0b8-46a5-9aca-a0404b6011a4" name="Changes" comment="Added index.html. See if it works in vercel.">
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
         <option value="Flask Main" />
         <option value="Python Script" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -212,7 +212,7 @@
       <updated>1767768830969</updated>
       <workItem from="1767768832012" duration="4463000" />
       <workItem from="1767802205606" duration="11632000" />
-      <workItem from="1768108610680" duration="2094000" />
+      <workItem from="1768108610680" duration="3257000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: working website">
       <option name="closed" value="true" />
@@ -318,7 +318,15 @@
       <option name="project" value="LOCAL" />
       <updated>1768113433009</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added index.html. See if it works in vercel.">
+      <option name="closed" value="true" />
+      <created>1768113818702</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1768113818702</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +354,8 @@
     <MESSAGE value="Adjusted code for render.com" />
     <MESSAGE value="Finished scraping and added a flattened array of all the article links." />
     <MESSAGE value="Added the links to git." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the links to git." />
+    <MESSAGE value="Added index.html. See if it works in vercel." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added index.html. See if it works in vercel." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RandomBritannica$scrape_britannica.coverage" NAME="scrape_britannica Coverage Results" MODIFIED="1767807704882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
