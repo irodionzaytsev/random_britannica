@@ -30,7 +30,7 @@ for c in ["0-9"] + list(string.ascii_lowercase):
         print(f"Category {c} failed: {e}")
 
 # Save to JSON
-with open("articles.json", "w") as f:
+with open("topics.json", "w") as f:
     json.dump(articles, f, indent=2)
 
 print(f"Scraped {len(articles)} articles.")
