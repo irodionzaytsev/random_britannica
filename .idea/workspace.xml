@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="192c954b-e0b8-46a5-9aca-a0404b6011a4" name="Changes" comment="Adjusted code for render.com">
-      <change afterPath="$PROJECT_DIR$/flatten_articles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="192c954b-e0b8-46a5-9aca-a0404b6011a4" name="Changes" comment="Added the links to git.">
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logic.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scrape_articles.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrape_articles.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrape_topics.py" beforeDir="false" afterPath="$PROJECT_DIR$/scrape_topics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
       <list>
         <option value="Flask Main" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -63,6 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "Flask server.RandomBritannica.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.flatten_articles.executor": "Run",
@@ -210,7 +212,7 @@
       <updated>1767768830969</updated>
       <workItem from="1767768832012" duration="4463000" />
       <workItem from="1767802205606" duration="11632000" />
-      <workItem from="1768108610680" duration="1667000" />
+      <workItem from="1768108610680" duration="2094000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit: working website">
       <option name="closed" value="true" />
@@ -300,7 +302,23 @@
       <option name="project" value="LOCAL" />
       <updated>1767807331778</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finished scraping and added a flattened array of all the article links.">
+      <option name="closed" value="true" />
+      <created>1768113298567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1768113298567</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added the links to git.">
+      <option name="closed" value="true" />
+      <created>1768113433009</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1768113433009</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +344,9 @@
     <MESSAGE value="After restructuring the files the sanity check deployment worked. So now we remove the sanity check and see if the actual code works." />
     <MESSAGE value="Added headers and timeout" />
     <MESSAGE value="Adjusted code for render.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adjusted code for render.com" />
+    <MESSAGE value="Finished scraping and added a flattened array of all the article links." />
+    <MESSAGE value="Added the links to git." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the links to git." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RandomBritannica$scrape_britannica.coverage" NAME="scrape_britannica Coverage Results" MODIFIED="1767807704882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
